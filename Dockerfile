@@ -9,3 +9,5 @@ RUN curl -L -o /usr/bin/kubectl \
 RUN yum install -y jq
 
 COPY --chmod=555 controller.sh /usr/bin/controller
+
+ENTRYPOINT ["/usr/bin/controller"]
