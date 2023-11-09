@@ -1,6 +1,6 @@
 # route53-bash-integration
 
-This is an example integration between Kubizone and Route53.
+Example integration between Kubizone and Route53.
 
 It is written in bash, using the `aws` and `kubectl` commands to show
 a very simplified way of quickly building (fragile) integrations between
