@@ -1,4 +1,4 @@
-# kubizone-route53-bash
+# route53-bash-integration
 
 This is an example integration between Kubizone and Route53.
 
@@ -23,7 +23,7 @@ hosted zone's domain names, and apply it to your cluster.
 
 Build the container:
 ```bash
-$ docker build -t kubizone-route53-bash:local .
+$ docker build -t route53-bash-integration:local .
 ```
 
 Running the container:
@@ -35,7 +35,7 @@ $ docker run --rm -it                           \
     -e AWS_ACCESS_KEY_ID                        \
     -e AWS_SECRET_ACCESS_KEY                    \
     -e AWS_SESSION_TOKEN                        \
-    kubizone-route53-bash:local                 \
+    route53-bash-integration:local              \
     --zone=myzone-resource-com                  \
     --namespace=optional-namespace              \
     --hosted-zone-id=Z01234567890ABCABCABC
