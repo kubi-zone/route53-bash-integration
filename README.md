@@ -12,6 +12,13 @@ written to demonstrate one very hacky way of building an integration.
 
 # Usage
 
+**Note:** You must [install]((https://kubi.zone/docs/v0.1.0/getting-started/installation/)
+the Kubizone Custom Resource Definitions and operator, before running this
+controller, or it simply won't work.
+
+Modify [`example-zone.yaml`](/example-zone.yaml) file to match your
+hosted zone's domain names, and apply it to your cluster.
+
 ## Local
 
 Build the container:
