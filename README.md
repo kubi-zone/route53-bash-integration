@@ -12,7 +12,7 @@ written to demonstrate one very hacky way of building an integration.
 
 # Usage
 
-**Note:** You must [install]((https://kubi.zone/docs/v0.1.0/getting-started/installation/)
+**Note:** You must [install](https://kubi.zone/docs/v0.1.0/getting-started/installation/)
 the Kubizone Custom Resource Definitions and operator, before running this
 controller, or it simply won't work.
 
